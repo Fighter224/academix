@@ -134,9 +134,10 @@ const createStyles = (colors: any) => StyleSheet.create({
     justifyContent: 'space-between',
   },
   headerLogo: {
-    height: 28,
-    width: 110,
+    height: 44,
+    width: 140,
     resizeMode: 'contain',
+    marginVertical: -6,
   },
   headerSubtitle: {
     fontSize: Theme.typography.sizes.sm,
