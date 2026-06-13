@@ -331,6 +331,7 @@ const createStyles = (colors: any) => StyleSheet.create({
     paddingHorizontal: Theme.spacing.md,
     paddingVertical: Theme.spacing.sm,
     maxWidth: '78%',
+    flexShrink: 1,
     ...Theme.shadows.sm,
   },
   myBubble: {

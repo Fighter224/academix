@@ -224,6 +224,7 @@ const createStyles = (colors: any) => StyleSheet.create({
     borderRadius: Theme.roundness.md,
     paddingHorizontal: Theme.spacing.md,
     paddingVertical: Theme.spacing.sm,
+    flexShrink: 1,
   },
   myBubble: {
     backgroundColor: colors.primaryDark,
